@@ -26,12 +26,6 @@ p {
   font-weight: 400;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi) {
-  .video-thumbnail {
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-  }
-}
 .spaced-container {
   margin: 0 auto;
   width: 70%;
@@ -74,7 +68,7 @@ p {
   font-family: "Arvo", Georgia, "Times New Roman", serif;
   font-size: 32px;
   font-weight: 400;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   position: relative;
   display: inline-block;
 }
@@ -90,7 +84,7 @@ p {
   color: #777777;
   line-height: 1.5;
   font-weight: 400;
-  width: 70%;
+  width: 58%;
   margin: 0 auto;
   opacity: 0.8;
 }
