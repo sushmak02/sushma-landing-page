@@ -1,4 +1,4 @@
 # Landing Page - Sushma Kure
 
 ## Project Overview
-A responsive landing pagecreated.
+A responsive landing page created.
