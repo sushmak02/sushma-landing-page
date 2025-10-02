@@ -100,15 +100,6 @@ p {
   font-weight: 400;
 }
 
-// Optimize loading for high-res images
-@media screen and (-webkit-min-device-pixel-ratio: 2),
-       screen and (min-resolution: 192dpi) {
-  .video-thumbnail {
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-  }
-}
-
 // Container
 .spaced-container {
   margin: 0 auto;
@@ -498,10 +489,6 @@ p {
     }
   }
 }
-
-// ========================================
-// Responsive Styles
-// ========================================
 
 // Mobile devices (max-width: 480px)
 @include respond-to(mobile, max) {
